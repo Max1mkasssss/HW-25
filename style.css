@@ -1,0 +1,30 @@
+.center{
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    outline: 1px solid red;
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
+.v1{ 
+    background: tomato;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.v2{ 
+    background: blue;
+    position: absolute;
+    top: 30%; 
+    left: 30%;
+    z-index: 100;
+}
+.v3{ 
+    background: greenyellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
